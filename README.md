@@ -2,7 +2,7 @@
 
 Este proyecto implementa una **Red Neuronal Convolucional (CNN)** en **TensorFlow/Keras** para clasificar imágenes del dataset **CIFAR-10**, que contiene 10 categorías como aviones, coches, gatos, perros, etc.
 
-## 📌 Dataset
+## Dataset
 El dataset CIFAR-10 tiene 60,000 imágenes en 10 clases:
 - Avión
 - Automóvil
