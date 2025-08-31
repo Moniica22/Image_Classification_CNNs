@@ -1,25 +1,46 @@
-# Clasificacion-Imagenes-con-CNNs-
+# Image Classification with CNNs
 
-Este proyecto implementa una **Red Neuronal Convolucional (CNN)** en **TensorFlow/Keras** para clasificar imágenes del dataset **CIFAR-10**, que contiene 10 categorías como aviones, coches, gatos, perros, etc.
+This project implements a **Convolutional Neural Network (CNN)** using **TensorFlow/Keras** to classify images from the **CIFAR-10** dataset. The model learns to distinguish between 10 object categories such as airplanes, cars, cats, dogs, and more.
+
 
 ## Dataset
-El dataset CIFAR-10 tiene 60,000 imágenes en 10 clases:
-- Avión
-- Automóvil
-- Pájaro
-- Gato
-- Ciervo
-- Perro
-- Rana
-- Caballo
-- Barco
-- Camión
+The [CIFAR-10 dataset] contains 60,000 images divided into 10 classes (6,000 images per class):
+- Airplane
+- Automobile
+- Bird
+- Cat
+- Deer
+- Dog
+- Frog
+- Horse
+- Ship
+- Truck
 
-## Modelo CNN
-La red neuronal tiene las siguientes capas:
-- **Conv2D + ReLU** (extracción de características)
-- **MaxPooling2D** (reducción de dimensiones)
-- **Fully Connected (Dense)** (clasificación final)
 
-## Resultados
-La CNN alcanzó una precisión de **71%** en el conjunto de prueba.
+## CNN Architecture
+
+The CNN architecture used in this project includes:
+- `Conv2D` layers with ReLU activation (feature extraction)
+- `MaxPooling2D` layers (downsampling)
+- `Dense` fully connected layers (final classification)
+
+
+## Results
+After training, the CNN achieved an accuracy of **71%** on the test dataset.
+
+## Ejecution
+```
+# Clone the repository
+git clone https://github.com/Moniica22/Clasificacion-Imagenes-con-CNNs-.git
+cd Clasificacion-Imagenes-con-CNNs-
+```
+
+# Install dependencies
+```
+pip install -r Requirements.txt
+```
+
+# Run the training notebook
+```
+jupyter notebook CIFAR-10.ipynb
+```
