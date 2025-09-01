@@ -31,8 +31,8 @@ After training, the CNN achieved an accuracy of **71%** on the test dataset.
 ## Ejecution
 ```
 # Clone the repository
-git clone https://github.com/Moniica22/Clasificacion-Imagenes-con-CNNs-.git
-cd Clasificacion-Imagenes-con-CNNs-
+git clone https://github.com/Moniica22/Image_Classification_CNNs.git
+cd Image_Classification_CNNs
 ```
 
 # Install dependencies
