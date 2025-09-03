@@ -40,7 +40,7 @@ cd Image_Classification_CNNs
 pip install -r Requirements.txt
 ```
 
-# Run the training notebook
+# Run Jupyter notebook
 ```
 jupyter notebook CIFAR-10.ipynb
 ```
